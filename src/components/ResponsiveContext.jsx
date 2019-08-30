@@ -11,11 +11,14 @@ const getInfo = () => ({
 
 const ResponsiveContext = ({ children }) => {
   const [info, setInfo] = useState({})
-  const updateInfo = () => setInfo(getInfo())
 
   useEffect(() => {
+    const updateInfo = () => setInfo(getInfo())
+    
     updateInfo()
+
     window.addEventListener('resize', updateInfo, { passive: true })
+
     return () => window.removeEventListener('resize', updateInfo, { passive: true })
     // eslint-disable-next-line
   }, [])
