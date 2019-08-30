@@ -2,7 +2,7 @@
   "name": "@fiad/react-responsive-context",
   "version": "1.0.0",
   "description": "A React context wrapper to handle responsive scenarios",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "neutrino build",
     "start": "neutrino start",

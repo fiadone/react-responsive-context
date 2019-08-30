@@ -1,5 +1,5 @@
-import ResponsiveContext from './ResponsiveContext'
+import Provider, { Context } from './ResponsiveContext'
 import Responsive from './Responsive'
 
-export default ResponsiveContext
-export { Responsive }
+export default Provider
+export { Responsive, Context }
