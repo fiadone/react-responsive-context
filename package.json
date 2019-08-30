@@ -12,9 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/fiadone/react-responsive-context.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react", "context", "responsive"],
+  "author": "Andrea 'Fiad' Fiadone",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fiadone/react-responsive-context/issues"
   },
