@@ -12,6 +12,7 @@ As first step, you need to import the context provider from library and implemen
 ```javascript
 import React, { Component } from 'react'
 import ResponsiveContext from '@fiad/react-responsive-context'
+import MyResponsiveComponent from 'path/to/my/components/MyResponsiveComponent'
 
 class App extends Component {
   render() {
