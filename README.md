@@ -28,7 +28,7 @@ export default App
 
 A global responsive context will be now available and the following data will be accessible from its child components:
 
-<table border>
+<table>
   <tr>
     <th>Property</th>
     <th>Type</th>
