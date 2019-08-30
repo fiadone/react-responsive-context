@@ -61,7 +61,7 @@ A global responsive context will be now available and the following data will be
 At this point, according to your needs, you have two choices:
 
 ### 1. Using built-in *Responsive* component
-The library provides an utility component that helps you to handle responsive-based conditional rendering. You can easily implement it as shown below:
+If you simply need to handle responsive-based conditional rendering, the library provides an utility component that helps you with this goal. You can easily implement it as shown below:
 ```javascript
 import React from 'react'
 import { Responsive } from '@fiad/react-responsive-context'
@@ -85,7 +85,7 @@ export default MyResponsiveComponent
 As you can see, the *on* property expects a callback function from which you can access context's data and use them to match your scenario. Remember that the callback must return a boolean value representing your checking result.
 
 ### 2. Accessing context data directly
-To have a direct access to context's data, you can use both React's *hooks* and *Context API* depending on how your component has been implemented. You can see both examples here below:
+In some scenarios, you may instead need to have access to context's data in order to use them directly in your component's logic. In that case, you can use both React's *hooks* and *Context API* depending on how your component has been implemented. Lets see both examples:
 
 #### *useContext* (hook)
 ```javascript
